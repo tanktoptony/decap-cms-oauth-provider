@@ -9,6 +9,7 @@
   status = 200
 
 [[redirects]]
-  from = "/callback"
+  from = "/auth/*"
   to = "/.netlify/functions/auth"
   status = 200
+
